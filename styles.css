@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main  Styling*/
+html, body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+
+}
+
+h1 {
+    line-height: 1.2;
+}
+
+p {
+    margin: 1rem 0; 
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #108d2b;
+    color: #fff;
+    
+    height: 4rem;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    display: block;
+    color: #ffa;
+    width: 6rem;
+    height: 4rem;
+    padding-top: 1.2rem;
+}
+
+header ul li a:hover, header ul .current {
+    background-color: rgb(70, 155, 36);
+    color: #fff;
+}
+
+
